@@ -1,6 +1,7 @@
 import pyautogui as pag
 import time
 
+print('Starting in 5s...')
 time.sleep(5)
 
 while True:
