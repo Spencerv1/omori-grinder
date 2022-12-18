@@ -1,11 +1,8 @@
 import pyautogui as pag
 import time
 
-#pag.PAUSE = 1
-
 time.sleep(5)
 
-# Start with spamming z to run from fight and retrigger, continue for 6s
 while True:
     pag.keyDown('z')
     pag.keyUp('z')
